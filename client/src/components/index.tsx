@@ -5,3 +5,4 @@ export { default as Transactions } from './Transactions';
 export { default as Services } from './Services';
 export { default as Welcome } from './Welcome';
 export { default as CryptoCard } from './CryptoCard';
+export { default as FormFill } from './FormFill';
