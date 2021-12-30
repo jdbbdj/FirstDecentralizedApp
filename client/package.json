@@ -1,8 +1,11 @@
 {
   "name": "krypt",
   "version": "0.0.0",
+  "server": {
+    "host": true
+  },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
