@@ -1,9 +1,10 @@
-import React from 'react'
+import React,{useState} from 'react';
+
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello Worlds</h1>
+      <h1 className="text-3xl font-bold underline">Hello Worlds</h1>
     </div>
   )
 }
