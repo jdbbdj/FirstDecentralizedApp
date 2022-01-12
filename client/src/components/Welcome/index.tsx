@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import {Loader,CryptoCard,FormFill} from '../';
+import {CryptoCard} from '../';
 
 const commonStyles='min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white';
 
@@ -15,8 +15,8 @@ const Welcome = ():React.ReactElement => {
 
     return (
         <div className='flex w-full justify-center items-center'>
-            <div className='flex md:flex-row flex-col items-start justify-between md:p-20 py-12 px-4'>
-            <div className="flex flex-1 justify-start flex-col md:mr-10">
+            <div className='flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4'>
+            <div className="flex flex-1 justify-start flex-col mf:mr-10">
                 <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
                 Send Crypto <br/> across the world
                 </h1>
@@ -54,7 +54,7 @@ const Welcome = ():React.ReactElement => {
             </div>
             </div>
             <CryptoCard/>
-            <FormFill/>
+            
             </div>
         </div>
     )

@@ -2,10 +2,11 @@ import React from 'react'
 import { AiFillPlayCircle } from 'react-icons/ai';
 import { SiEthereum } from 'react-icons/si';
 import { BsInfoCircle } from 'react-icons/bs';
+import { FormFill } from '..';
 
 const CryptoCard = () => {
     return (
-        <div className="flex flex-col flex-1 items-center justify-start w-full md:mt-0 mt-10">
+        <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10">
                 <div className="p-3 justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card white-glassmorphism">
                     <div className='flex justify-between flex-col w-full h-full'>
                         <div className=" flex justify-between items-start">
@@ -24,6 +25,7 @@ const CryptoCard = () => {
                         </div>
                     </div>
                 </div>
+                <FormFill/>
             </div>
     )
 }
