@@ -1,9 +1,16 @@
-import React from 'react'
+import React,{useState} from 'react';
+import {Navbar, Welcome, Footer, Services, Transactions} from './components';
 
-const App = () => {
+const App = ():React.ReactElement => {
   return (
-    <div className="App">
-      <h1>Hello Worlds</h1>
+    <div className="App min-h-screen">
+      <div className="gradient-bg-welcome">
+        <Navbar/>
+        <Welcome/>
+      </div>
+      <Services/>
+      <Transactions/>
+      <Footer/>
     </div>
   )
 }

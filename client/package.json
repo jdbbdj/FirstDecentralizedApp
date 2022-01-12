@@ -1,14 +1,22 @@
 {
   "name": "krypt",
   "version": "0.0.0",
+  "server": {
+    "host": true
+  },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "ethers": "^5.5.2",
+    "formik": "^2.2.9",
+    "moment": "^2.29.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/react": "^17.0.33",

@@ -13,3 +13,11 @@ to shape and style designs without writing CSS classes
 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+adding --host on the dev on package.json helps you to test if you're using other PC on viewing your live changes
+Previous:
+dev:"vite"
+Changes:
+dev:"vite --host"
+
+note:you can remvoe it later on
